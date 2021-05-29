@@ -30,10 +30,10 @@ options.be_verbose = True
 training_xml_path = os.path.join(plate_folder, "training.xml")
 testing_xml_path = os.path.join(plate_folder, "testing.xml")
 
-print(options)
+# print(options)
 #dlib.train_simple_object_detector(training_xml_path, "detector.svm", options)
 
-print("")  # Print blank line to create gap from previous output
+# print("")  # Print blank line to create gap from previous output
 #print("Training accuracy: {}".format(
 #    dlib.test_simple_object_detector(training_xml_path, "detector.svm")))
 #

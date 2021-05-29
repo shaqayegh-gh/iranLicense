@@ -44,7 +44,7 @@ else:
 
 # load the coins as a numpy array
 orig_coins = coins()
-orig_coins = np.asarray(Image.open("tmp.jpg"))
+orig_coins = np.asarray(Image.open("out/final.jpg"))
 print(type(orig_coins))
 # Resize it to 20% of the original size to speed up the processing
 # Applying a Gaussian filter for smoothing prior to down-scaling

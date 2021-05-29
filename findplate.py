@@ -49,7 +49,7 @@ class findplate:
                 #print(img_label)
                 cnt +=1
                 cntp=cnt
-                if not self.dict_label.has_key(img_label):
+                if img_label not in self.dict_label.keys():
                     self.dict_label[img_label]=cntp
                 else:
                     cntp=self.dict_label[img_label]

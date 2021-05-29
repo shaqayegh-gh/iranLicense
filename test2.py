@@ -37,7 +37,7 @@ def plot_img_and_hist(image, axes, bins=256):
 
 # Load an example image
 #img = data.moon()
-img = io.imread("tmp.jpg")
+img = io.imread("out/final.jpg")
 # Gamma
 gamma_corrected = exposure.adjust_gamma(img, 2)
 

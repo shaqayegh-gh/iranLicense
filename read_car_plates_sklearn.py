@@ -1,4 +1,4 @@
-
+import joblib
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
@@ -12,7 +12,7 @@ import cv2
 from PIL import Image
 from sklearn import datasets, linear_model, preprocessing
 from sklearn import svm
-from sklearn.externals import joblib
+# from sklearn.externals import joblib
 from scipy import signal
 
 X_LENGTH = 1280

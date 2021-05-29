@@ -32,26 +32,26 @@ imagefinal.rectangle(((297,361),(297+217,361+41)),outline="black")
 
 img.show()
 
-img = Image.open("car_plates/car04.jpg")
-
-imagefinal=ImageDraw.Draw(img)
-imagefinal.rectangle(((187,186),(187+129,186+42)),outline="black")
-
-img.show()
-img = Image.open("car_plates/car05.jpg")
-
-imagefinal=ImageDraw.Draw(img)
-imagefinal.rectangle(((368,881),(368+210,881+31)),outline="black")
-imagefinal.rectangle(((1771,934),(1771+126,934+21)),outline="black")
-imagefinal.rectangle(((1409,980),(1409+76,980+12)),outline="black")
-
-img.show()
-img = Image.open("car_plates/car11.jpg")
-
-imagefinal=ImageDraw.Draw(img)
-imagefinal.rectangle(((820,625),(820+102,625+20)),outline="black")
-imagefinal.rectangle(((219,675),(219+122,675+27)),outline="black")
-
-img.show()
+# img = Image.open("car_plates/car04.jpg")
+#
+# imagefinal=ImageDraw.Draw(img)
+# imagefinal.rectangle(((187,186),(187+129,186+42)),outline="black")
+#
+# img.show()
+# img = Image.open("car_plates/car05.jpg")
+#
+# imagefinal=ImageDraw.Draw(img)
+# imagefinal.rectangle(((368,881),(368+210,881+31)),outline="black")
+# imagefinal.rectangle(((1771,934),(1771+126,934+21)),outline="black")
+# imagefinal.rectangle(((1409,980),(1409+76,980+12)),outline="black")
+#
+# img.show()
+# img = Image.open("car_plates/car11.jpg")
+#
+# imagefinal=ImageDraw.Draw(img)
+# imagefinal.rectangle(((820,625),(820+102,625+20)),outline="black")
+# imagefinal.rectangle(((219,675),(219+122,675+27)),outline="black")
+#
+# img.show()
 
 
